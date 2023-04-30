@@ -1,0 +1,55 @@
+body{
+    background-image: url("геометрия.png");
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+    font-family: 'Comfortaa', cursive;
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 0 0 3px black;
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+button{
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.541);
+}
+button:hover { background-color:  red; }
+img{
+    width: calc(100% / 6 - 10px);
+    transition: 0.6s;
+    margin: 5px;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.788);
+}
+div{
+    width: 1000px;
+    margin: auto;
+    /* чтобы убрать отступы между картинками */
+    font-size: 0;
+}
+.blockedimage{
+    pointer-events: none !important; 
+}
+*::selection {
+    background: #cc000000;
+  }
+  *::-moz-selection {
+    background: #cc000000;
+  }
+  *::-webkit-selection {
+    background: #cc000000;
+}
